@@ -2,7 +2,7 @@
 
 ## Setup Enviroment
 
-### Creating a new enviroment
+### Creating a new enviroment for VS Code
 conda create -p venv python=3.10 -y
 
 ### Installing packages
@@ -13,5 +13,9 @@ https://smith.langchain.com/
 
 ### Installing Ollama
 https://ollama.com/download
-#### download model
-ollama run gemma 
+
+#### Download model
+ollama run gemma
+
+## Access API documentation
+http://localhost:8000/docs
