@@ -4,6 +4,7 @@
 
 ### Creating a new enviroment for VS Code
 conda create -p venv python=3.10 -y
+conda activate venv/
 
 ### Installing packages
 pip install -r requirements.txt
@@ -17,5 +18,5 @@ https://ollama.com/download
 #### Download model
 ollama run gemma
 
-## Access API documentation
+### Access API documentation
 http://localhost:8000/docs
